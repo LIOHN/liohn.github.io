@@ -4,4 +4,5 @@ title: About
 permalink: /about
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}).
+I'm Daniel Ene, a Computer Science graduate with great knowledge of various ML and statistical methods as well as libraries implementing them. That includes TensorFlow, Keras, scikitlearn, numpy, pandas and matplotlib. My main language is Python and I have been coding in Python for about 5 years now, ever since I taught myself the language in 2016 before starting my degree. Thanks to various academic coursework, I am also comfortable coding in Java.
+I hold a Masters in Computer Science from the University of Liverpool, where I graduated in 2020. On this website you will learn more about some of my projects from academia and other places too.
