@@ -1,6 +1,6 @@
 # daniels.knowledge.base
 
-Thanks to GitHub Pages and Jekyll I was able to deploy my new website extremely quickly. Oneadvantages GitHub Pages offers you is the ability to go back in time to earlier versions, as publishing new versions of the website is done within GitHub, a Version Control System. You can publish with git on your own machine, with GitHub Desktop, or on the GitHub Website. This meant I could avoid mistakes and save time compared to the time when I coded my own website from scratch.
+Thanks to GitHub Pages and Jekyll I was able to deploy my new website extremely quickly. One advantage GitHub Pages offers you is the ability to go back in time to earlier versions, as publishing new versions of the website is done within GitHub, a Version Control System. You can publish with git on your own machine, with GitHub Desktop, or on the GitHub Website. This meant I could avoid mistakes and save time compared to the time when I coded my own website from scratch.
 While GitHub Pages primarily deals with static websites, I believe they allow for dynamicity. For my purposes however, a static website suffices.
 
 [daniels.knowledge.base](https://liohn.github.io/) will serve as a knowledge base to me and as a project showcase to prospective employers. In it I plan to explain in detail my programming projects since 2016, and also keep notes and potentially share my views of the world in a blog.
