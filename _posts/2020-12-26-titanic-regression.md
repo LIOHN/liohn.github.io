@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Titanic Regression"
+title: "Titanic Survival with Logistic Regression"
 author: "Daniel E"
 categories: projects
-tags: [Python3, jupyter-notebook, scikitlearn, pandas, numpy, gunicorn, pytest, tox, flask, github, git, gemfury, circleci, heroku, docker, REST, OOP, logistic-regression]
+tags: [Python3, jupyter-notebook, scikitlearn, pandas, numpy, gunicorn, pytest, tox, flask, github, git, gemfury, circleci, CICD, MLOps, DevOps, heroku, docker, REST, OOP, logistic-regression, reproducibility, versioning, modularity, API]
 image: titanic-regression.png
 ---
 
@@ -23,10 +23,8 @@ The dataset was quite small, and freely available [online](https://www.openml.or
 
 The code can be found on [my GitHub page](https://github.com/LIOHN/titanic-survival-regression).
 
-Further notes and learnings from this project can be found on [my website](https://liohn.github.io/notes)
-
 ## Keywords
-Python3, jupyter-notebook, scikitlearn, pandas, numpy, gunicorn, pytest, tox, flask, github, git, gemfury, circleci, heroku, docker, REST, OOP, logistic-regression
+Python3, jupyter-notebook, scikitlearn, pandas, numpy, gunicorn, pytest, tox, flask, github, git, gemfury, circleci, CICD, MLOps, DevOps, heroku, docker, REST, OOP, logistic-regression, reproducibility, versioning, modularity, API
 
 # Delivery
 
@@ -110,5 +108,4 @@ While this project was mainly independent work, a community of like-minded stude
 *This project was completed 26/12/2020.*
 The code can be found on [my GitHub page](https://github.com/LIOHN/titanic-survival-regression).
 
-Further notes and learnings from this project can be found on [my website](https://liohn.github.io/notes)
 
