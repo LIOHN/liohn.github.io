@@ -14,7 +14,7 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github', link:    'https://www.github.com/LIOHN'}
+- {icon: 'github', link:    'https://www.github.com/daniels-kb'}
 - {icon: 'linkedin', link:   'https://www.linkedin.com/in/danielcene/'}
 - {icon: 'envelope', link:   'mailto:daniel.e17@outlook.com'}
 
