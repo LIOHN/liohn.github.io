@@ -4,7 +4,7 @@ title: "Watchful Webinar Notes - Machine Teaching"
 author: "Daniel E"
 categories: notes
 tags: [notes, data-science, machine-teaching, hand-labelling, explainability, interpretability]
-image: machtech2.png
+image: machtech.png
 ---
 
 In a bid to stay up-to-date with the latest developments in the field of AI, I attended a webinar organised by [Watchful](https://www.watchful.io/), where they discussed Machine Teaching, the task of automating labelling of data for a machine learning model. In this webinar, a context is provided as well as challenges in the field and a new solution to address it all. This webinar provided me with a useful insight into the challenges in the world of data science.

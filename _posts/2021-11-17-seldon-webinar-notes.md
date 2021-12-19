@@ -4,7 +4,7 @@ title: "Seldon Webinar Notes - ML Explainability"
 author: "Daniel E"
 categories: notes
 tags: [notes, data-science, machine-teaching, statistical, explainability, interpretability]
-image: expl2.jpg
+image: expl1.jpg
 ---
 
 In a bid to stay up-to-date with the latest developments in the field of AI, I attended a webinar organised by [Seldon](https://www.seldon.io/), where they discussed explainability as a requirement in machine learning that is of growing importance.
@@ -39,12 +39,6 @@ You may also learn what information you need to consider or test further. An exp
 
 # Q&A
 Explainer algorithms depend on algorithms and data. One may be able to use them on classifiers but not regressors. You have black box models (you give it data and you get predictions – production API exposed to world) and white/grey box models (you can look at implementation, or TF gradient propagation thru TF graph thanks to TensorFlow)
-**Daniel**: "Wouldn't features in a ConvNet become less and less human readable as the images progress through the layers? When Janis mentioned observing a model picking up on an unexpected area of an image, can you really code an explainer algorithm that detects that definitely? Or just narrow down?"
-**Janis**: "Issue is interpretation not coding the explainer method. But yeah it’s a limitation. You’ll have to combine data issues with what you get from explainer method and come up with a conclusion yourself. LIME is an early explanation algorithm. Black box, perturbation based method. Statistical on how responses vary. What model responses around datapoint and give feature importances to dataset. If prediction on decision boundary, explanation may be a little bit unintuitive. LIME is no longer viable. Given the advanced problems learning algorithms face now.
-
-**Other attendee**: Unsupervised learning good practices of Explainability?
-**Janis**: "Broad question, depends on task. Clustering, why are these datapoints assigned to these clusters and not these other ones. Not explored in literature. Classification, regression, maybe some structured outputs (text generation) are main ones that look at Explainability. Watch that space."
-
 
 **Daniel**: "Wouldn't features in a ConvNet become less and less human readable as the images progress through the layers? When Janis mentioned observing a model picking up on an unexpected area of an image, can you really code an explainer algorithm that detects that definitely? Or just narrow down?"
 
