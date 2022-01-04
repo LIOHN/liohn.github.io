@@ -1,5 +1,7 @@
 # Site Build Settings
 
+google_analytics: G-B07MHK4092
+
 # jekyll-paginate configuration
 paginate:            5
 
