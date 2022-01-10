@@ -44,8 +44,8 @@ If you give people open-source tools, you will have crowdsourced innovation and 
 
 *Peter*: Will there ever be a too big of a product-to-be/problem to be solved that open-source cannot solve? 
 
-*Say you're builing a vertically integrated B2B solution. Developing a such solution will have a top-down feel to it. Your sales cycle is: "I go to CEOs and CTOs and hope they take the product into their company and they integrate it".
-*Say you are now building B2B/B2C solution in an open-source setting. The process is much more organic. Your main selling points are open-source, transparency, ease of use, and an existing ecosystem around this product. 
+* Say you're builing a vertically integrated B2B solution. Developing a such solution will have a top-down feel to it. Your sales cycle is: "I go to CEOs and CTOs and hope they take the product into their company and they integrate it".
+* Say you are now building B2B/B2C solution in an open-source setting. The process is much more organic. Your main selling points are open-source, transparency, ease of use, and an existing ecosystem around this product. 
 
 There is a big difference between what these products can achieve, as open-source products without commercial motivations will have limitations in terms of what they can achieve... Soumith sees open-source as a strategy on how a company might want to sell products, an effective one at that, as you can compete with non-open-source providers. Open-source will likely lack a level of support too.
 
@@ -73,10 +73,10 @@ Soumith is looking forward to further development of Python ecosystem. We use so
  productiveness when they want performance. 
  Numba, accelerators, pytorch compiler, these tools are not there yet in terms of giving everything. Would like this side of things to mature more. 
  Faster like C++ and stuff. 
- Goal is built with python not hammered with python.
+ Goal is *"built with Python"* not *"hammered with Python"*.
 
 # Daniel's take on this
-The way I see it is: The scientific and business communities are engaged in a game of Minesweeper, with the community starting with a number of ideas (randomly clicking cells at the beginning of the game), and further research and development being likened to the mine clearing strategy.
+The way I see it is: When it comes to developing new tools/products like Numpy or an AI recommender algorithm, be it the open source way or by the business community, development is like a game of Minesweeper. When teams/individual programmers first start out they start by randomly clicking a cell at the beginning of the game, or, they start with an idea. The next steps in the game would be clicking another cell in a different area (high risk, high reward), or systematically working with known information (how many mines are near the area you've unlocked) and building on these ideas (e.g. building a NumPy accelerated linear algebra module).
 
 These high risk high reward bets that have been talked about so much can be likened to clicking an unknown cell in the middle of the map. Two things can happen: 
 * you either hit a mine, i.e. you lost the game, your investment and your and others' time
@@ -91,8 +91,8 @@ What these experts say is the future will unfold in a way akin to the optimal Mi
 notes, data-science, machine-learning, open-source, explainability, Meta, Netflix, Wikimedia, Anaconda 
 
 ## Learn more:
-*[Anaconda, Commercial Edition](https://www.anaconda.com/products/commercial-edition)
-*[Wikimedia Foundation](https://wikimediafoundation.org/)
-*[Chris' Machine Learning Flashcards](https://machinelearningflashcards.com/)
-*[Virtual reality, augumented reality and smart glasses. Meta, the next evolution of social connections](https://about.facebook.com/meta/)
+* [Anaconda, Commercial Edition](https://www.anaconda.com/products/commercial-edition)
+* [Wikimedia Foundation](https://wikimediafoundation.org/)
+* [Chris' Machine Learning Flashcards](https://machinelearningflashcards.com/)
+* [Virtual reality, augumented reality and smart glasses. Meta, the next evolution of social connections](https://about.facebook.com/meta/)
 
