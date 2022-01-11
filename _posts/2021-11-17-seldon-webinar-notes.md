@@ -7,27 +7,19 @@ tags: [notes, data-science, machine-teaching, statistical, explainability, inter
 image: expl1.jpg
 ---
 
-In a bid to stay up-to-date with the latest developments in the field of AI, I attended a webinar organised by [Seldon](https://www.seldon.io/), where they discussed explainability as a requirement in machine learning that is of growing importance.
 
-### Keywords
-notes, data-science, machine-teaching, statistical, explainability, interpretability
+In a bid to stay up-to-date with the latest developments in the field of AI, I joined Ed Shee and Janis Klaise from [Seldon](https://www.seldon.io/) on webinar  where they discussed explainability as a requirement in machine learning that is of growing importance.
 
-# Seldon's Webinar on Machine Learning Interpretability and Explainability
 In this article I refined my webinar notes into a piece of writing that I and others can revisit. 
 
+# Summary
 _Often used to gain a competitive advantage and unlock business potential, machine learning helps organisations scale and run processes autonomously, however there is always room for potential errors. Algorithms are complicated by nature and in some cases “what” isn’t enough - you need to understand why models behave the way they do and their biases, particularly in highly regulated industries._
 
-In this webinar I joined Janis Klaise, Head of Data Science Engineering at Seldon and Ed Shee as they discussed the foundations of model explainability, why model explainability is mandatory for machine learning in production, how model explanations help address bias, and methodologies for interpreting AI/Machine Learning driven processes.
-Here's what I learnt:
-
-#Summary
 Explainability is a very difficult topic, with an inexact definition.
 The problem in question is developing frameworks and methods for engineers to understand how a ML model works under the hood when it's making predictions, what's driving its decisions.
 Explainability depends on type of model and type of data. 
 
-ML has become much more empirically driven, harder problems have arisen as time passed (eg speech recognition). Before machine learning we had statistical methods and stats are not enough for lots of nonlinear relationships. From an explainability point of view stats are quite intuitive, you can probably extrapolate how a statistical model reaches a certain conclusion.
-
-But it becomes an especially tricky issue with a learning model like a neural network because once trained it’s like a black box. Once again we're interested in finding out is why a given model has made a set prediction on a set datapoint. What if there's a subset of features that are not visible to the human eye? Ideally we'll run an explainability method and it will tell us how the model decided on whether the cell is cancerous or not, in a medical use case. And this problem is becoming more and more prominent as technology advances. 
+ML has become much more empirically driven and harder problems have arisen as time passed (e.g. speech recognition). Before machine learning we had statistical methods, which are not enough for problems/datasets with many nonlinear relationships. From an explainability point of view statistical methods are quite intuitive, as one can likely extrapolate why a statistical model made a set prediction on a certain datapoint. Explainability becomes an especially tricky issue when one is dealing a learning model like a neural network because once it's trained it’s like a black box. What if there's a subset of features that are not visible to the human eye? Ideally we'll run an explainability method and it will tell us how the model decided on whether the cell is cancerous or not, in a medical use case. And this problem is becoming more and more prominent as technology advances. 
 
 In an insurance use case, an explainer method would automatically detect variables like "car_parked_on_drive" (meaning chance of it getting broken into is lower) as being instrumental in predicting an accurate premium (lower in this case).
 
@@ -65,10 +57,11 @@ Linear models need statistical – exploratory data analysis to get rid of corel
 
 Fairness library : scikit.lego  - building blocks of skl pipeline, has interesting fair learning/feature selection implementations. So for car insurance you cant use gender anymore as predictor but there may be other features that together can determine the gender. So get rid of them all.
 
+### Keywords
+notes, data-science, machine-teaching, statistical, explainability, interpretability
 
-## Learn more:
-*[Alibi Explain library (open source drift detection algorithms)](https://go.seldon.io/e/702803/SeldonIO-alibi/9lnw4/404447027?h=3neI9R25ICFgCco2L9Ue1V4PtIdMOvBbMkokDZW1ToU): Library for explainability at Seldon started as research piece code. Now getting a lot of interest in industry. Now wrapped with an interface. Scikitlearn like. Extensive documentation. You choose a scenario and youm may or may not have to fit it w a dataset. Then simply hit explain.
-*[Seldon Deploy (enterprise model deployment, management and explainability)](https://go.seldon.io/e/702803/seldon-deploy/9lnw6/404447027?h=3neI9R25ICFgCco2L9Ue1V4PtIdMOvBbMkokDZW1ToU)
-*[Research paper: Monitoring and explainability of models in production](https://go.seldon.io/e/702803/ility-of-models-in-production-/9lnw8/404447027?h=3neI9R25ICFgCco2L9Ue1V4PtIdMOvBbMkokDZW1ToU)
-
-*[LIME Local Interpretable Model-agnostic Explanations](https://towardsdatascience.com/lime-explain-machine-learning-predictions-af8f18189bfe)
+### Learn more:
+* [Alibi Explain library (open source drift detection algorithms)](https://go.seldon.io/e/702803/SeldonIO-alibi/9lnw4/404447027?h=3neI9R25ICFgCco2L9Ue1V4PtIdMOvBbMkokDZW1ToU): Library for explainability at Seldon started as research piece code. Now getting a lot of interest in industry. Now wrapped with an interface. Scikitlearn like. Extensive documentation. You choose a scenario and youm may or may not have to fit it w a dataset. Then simply hit explain.
+* [Seldon Deploy (enterprise model deployment, management and explainability)](https://go.seldon.io/e/702803/seldon-deploy/9lnw6/404447027?h=3neI9R25ICFgCco2L9Ue1V4PtIdMOvBbMkokDZW1ToU)
+* Research paper: [Monitoring and explainability of models in production](https://go.seldon.io/e/702803/ility-of-models-in-production-/9lnw8/404447027?h=3neI9R25ICFgCco2L9Ue1V4PtIdMOvBbMkokDZW1ToU)
+* More about LIME, [Local Interpretable Model-agnostic Explanations](https://towardsdatascience.com/lime-explain-machine-learning-predictions-af8f18189bfe)

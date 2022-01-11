@@ -7,15 +7,15 @@ tags: [notes, data-science, machine-learning, open-source, explainability, Meta,
 image: future22.png
 ---
 
-# Anaconda's Webinar on 2022 Predictions: What’s Next in Data Science, AI, and ML 
-In this article I refined my webinar notes into a piece of writing that I and others can revisit. 
 
 In a bid to stay up-to-date with the latest developments in the field of AI, I attended a webinar organised by [Anaconda](https://www.anaconda.com/).
 In this webinar I joined Peter Wang, Co-Founder and CEO at Anaconda, Christine Doig, Director of Innovation for Personalized Experiences at Netflix, Soumith Chintala, Research Engineer at Meta AI Research and Chris Albon Director of Machine Learning at Wikimedia Foundation as they discussed their journeys through their AI/ML/DS careers and what 2022 holds for these fields.
 
+In this article I refined my webinar notes into a piece of writing that I and others can revisit. 
+
 Here's what I learnt:
 
-# How far we've come
+## What’s Next in Data Science, AI, and ML: How far we've come
 DS and ML have grown more mainstream, but it wasn't long ago that you would be considered a wizard if you developed a new machine learning algorithm and wrote a scientific article on it.
 The bar to make an impact was very low. Now everyone will have heard of, seen or used ML, and right now in industry numerous models are being managed and running continuously at scale, in production every day. On the scientific side you will see more algorithms being developed too.
 
@@ -39,7 +39,7 @@ There are 3 similar levels at Netflix too: Research Scientists, Algo/ML Engineer
 
 In the past people working in the first two buckets were few and far between. That's changed now, and you have a ton more industry (the first two buckets).
 
-# Opensource vs commercial development
+## Opensource vs commercial development
 If you give people open-source tools, you will have crowdsourced innovation and "low hanging fruit" problems will get solved first, albeit never completely finished and bug ridden. A tool a such problem will be worked on until it is good enough for people to use and say "it is no longer viable to create a uniform/polished commercial product around this problem."
 
 *Peter*: Will there ever be a too big of a product-to-be/problem to be solved that open-source cannot solve? 
@@ -61,7 +61,7 @@ Numpy and scikit became so highly modular and widely adopted because they slowly
 One could say we may be yet to understand what best open-source-commercial balance one can have given the size/cost of implementation of a desired project.
 
 
-# The future
+## The future
 CEOs and managers can definitely set out to develop a new algorithm that can be deemed a potential money cow, do sales pitches, spend months on research and hire a whole team of designers, SREs, project managers etc.
 Alternatively, and perhaps more wisely, a company can go and obtain API access to an already existing product from a company that has already explored a similar task. That way they can build on 
 This way way of doing things has been seen to work (e.g. the modularity and widespread use of Numpy) and could be the future of doing things in this field. 
@@ -75,7 +75,7 @@ Soumith is looking forward to further development of Python ecosystem. We use so
  Faster like C++ and stuff. 
  Goal is *"built with Python"* not *"hammered with Python"*.
 
-# Daniel's take on this
+## Daniel's take on this
 The way I see it is: When it comes to developing new tools/products like Numpy or an AI recommender algorithm, be it the open source way or by the business community, development is like a game of Minesweeper. When teams/individual programmers first start out they start by randomly clicking a cell at the beginning of the game, or, they start with an idea. The next steps in the game would be clicking another cell in a different area (high risk, high reward), or systematically working with known information (how many mines are near the area you've unlocked) and building on these ideas (e.g. building a NumPy accelerated linear algebra module).
 
 These high risk high reward bets that have been talked about so much can be likened to clicking an unknown cell in the middle of the map. Two things can happen: 
@@ -90,7 +90,7 @@ What these experts say is the future will unfold in a way akin to the optimal Mi
 ### Keywords
 notes, data-science, machine-learning, open-source, explainability, Meta, Netflix, Wikimedia, Anaconda 
 
-## Learn more:
+### Learn more:
 * [Anaconda, Commercial Edition](https://www.anaconda.com/products/commercial-edition)
 * [Wikimedia Foundation](https://wikimediafoundation.org/)
 * [Chris' Machine Learning Flashcards](https://machinelearningflashcards.com/)
